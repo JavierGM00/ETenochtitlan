@@ -22,7 +22,9 @@ module Etenoch
     end
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
-    config.i18n.default_locale = :es
+   # config.i18n.default_locale = :en #es or en esto solo es necesario para configurar
+                                     #los datos generales de la pagina lo demas lo hace
+                                     #la gema Globalize para el caso de Spree.
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
